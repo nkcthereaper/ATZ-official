@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 // Css
 import './Header.css';
 // Images
-import WebsiteLogo from '../../Assets/Images/Website-Logo.svg';
+// src\Assets\Images\logo-web.png
+import WebsiteLogo from '../../Assets/Images/logo-web.png';
 
 function Header() {
   const [show , setShow] = useState({
@@ -95,42 +96,23 @@ function Header() {
             <Link to='/about' className='menu-item-link menu-link'>about</Link>
           </li>
           
-          <li className='menu-item'>
+          {/* <li className='menu-item'>
             <Link to='/services' className='menu-item-link menu-link'>services</Link>
-          </li>
+          </li> */}
           
           <li className='menu-item work'>
             <Link to='/work' className='menu-item-link menu-link'>work</Link>
 
-            {/* submenu */}
-            <button className={`submenu-btn ${(show.subMenu ? 'icon-up' : 'icon-down')}`} onClick={subMenuHandler}></button>
-
-            <ul className={`submenu ${(show.subMenu ? 'show-submenu' : '')}`}>
-              <li className='submenu-item'>
-                <Link to='/project01' className='submenu-link menu-link'>florida heath facility</Link>
-              </li>
-
-              <li className='submenu-item'>
-                <Link to='/project02' className='submenu-link menu-link'>maine modernity</Link>
-              </li>
-
-              <li className='submenu-item'>
-                <Link to='/project03' className='submenu-link menu-link'>exclusive urban living</Link>
-              </li>
-
-              <li className='submenu-item'>
-                <Link to='/project04' className='submenu-link menu-link'>blue concrete house</Link>
-              </li> 
-            </ul>
+          
           </li>
           
-          <li className='menu-item'>
+          {/* <li className='menu-item'>
             <Link to='/articles' className='menu-item-link menu-link'>articles</Link>
-          </li>
+          </li> */}
           
-          <li className='menu-item'>
+          {/* <li className='menu-item'>
             <Link to='/get-quote' className='menu-item-link menu-link'><span className='btn btn-primary'>get quote</span></Link>
-          </li>       
+          </li>        */}
         </ul>
 
         {/* menu hamburger */}

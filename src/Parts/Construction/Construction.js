@@ -65,11 +65,11 @@ function Construction() {
                     <p>{frontContent}</p>
                   </section>
 
-                  <section className='card-back'>
+                  {/* <section className='card-back'>
                     <h4 className='title-sm'>{backTitle}</h4>
                     <p>{backContent}</p>
                     <Link to='/get-quote' className='btn btn-secondary'>get a quote</Link>
-                  </section>
+                  </section> */}
                 </div>
               </div>
             );

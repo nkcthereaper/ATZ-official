@@ -11,10 +11,10 @@ function CallToAction() {
           <p className='content'>vivamus sed consectetur tellus dolor sit amet, consectetur adipiscing lorem elit sadip ipsum ets ficilis uns.</p>
         </section>
 
-        <div>
+        {/* <div>
           <Link to='/get-quote' className='btn btn-primary btn-lg'>get a free quote</Link>
           <p className='sub-btn'>Only takes a few seconds!</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -66,7 +66,7 @@ function News() {
           })}
         </div>
 
-        <BtnHide link='/articles' content='articles'></BtnHide>
+        {/* <BtnHide link='/articles' content='articles'></BtnHide> */}
       </div>
     </div>
   );
