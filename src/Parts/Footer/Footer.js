@@ -55,7 +55,7 @@ function Footer() {
              <Logo />
           </Link>
 
-          <p>We are specialists in the construction of unique and exclusive properties. Our work inspires. We pride ourselves on delivering outstanding quality and design for leading clients across the world.</p>
+          <p>We are specialists in the construction of unique and exclusive properties. Our work inspires. We pride ourselves on delivering outstanding quality and design for leading industry projects.</p>
 
           <Link to='/about' className='btn btn-primary'>learn more</Link>
         </div>
@@ -76,24 +76,29 @@ function Footer() {
           <ul className='list'>
             <li className='list-item'>
               <i className='list-icon icon-globe'></i>
-              <p>corporate location<br/>1600 amphitheatre parkway<br/>london WC1 1BA</p>                         
+              <p>corporate location  <br/> <span>Manik Apartment, 47/1/7 Jessore Road (south), Prosadpur, Barasat Kolkata, Near Sarama Cinema Hall, Kalyan Krit Sangha Park, West Bengal 700124</span>  </p>
+                                    
             </li>
 
             <li className='list-item'>
               <i className='list-icon icon-home'></i>
-              <p>residential location<br/>9521 broadsberry avenue<br/>paddington RC7 9ZA</p>
-            </li>
-
-            <li className='list-item'>
-              <i className='list-icon icon-phone'></i>
-              <p>
-                <a href='tel:+1800458556' className='text-link'>1.800.458.556</a> / <a href='tel:+18005322112' className='text-link'>1.800.532.2112</a>
+              <p>residential location<br/>
+              <span>
+                House no 11. Asola housing complex, Fatehpur Beri, New Delhi: 110074
+              </span>
               </p>
             </li>
 
             <li className='list-item'>
               <i className='list-icon icon-phone'></i>
-              <a href='mailto:mailto:info@your-domain.com' className='text-link'>info@your-domain.com</a>
+              <p>
+                <a href='tel:+919354530770' className='text-link'>+919354530770</a> / <a href='tel:+919836669384' className='text-link'>+919836669384</a>
+              </p>
+            </li>
+
+            <li className='list-item'>
+              <i className='list-icon icon-phone'></i>
+              <a href='mailto:atzsss1@gmail.com' className='text-link'>atzsss1@gmail.com</a>
             </li>
 
             <li className='list-item'>

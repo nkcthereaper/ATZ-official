@@ -27,7 +27,7 @@ function Home() {
   <>
     <Loader/>
     <main id='main' className='home'>
-      <Hero title='building inspiring spaces' content='we build inspiring residential & commercial spaces'>
+      <Hero title='Building your future from A to Z' content='we build inspiring govenrnmet projects'>
         <HeroBtn/>
       </Hero>
       <SubHero/>

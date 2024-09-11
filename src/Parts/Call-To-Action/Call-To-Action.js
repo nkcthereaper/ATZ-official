@@ -7,8 +7,8 @@ function CallToAction() {
     <div className='call-to-action'>
       <div className='container'>
         <section>
-          <h2 className='title-lg subline'>building inspiring spaces</h2>
-          <p className='content'>vivamus sed consectetur tellus dolor sit amet, consectetur adipiscing lorem elit sadip ipsum ets ficilis uns.</p>
+          <h2 className='title-lg subline'>Building your future from A to Z</h2>
+          <p className='content'>At ATZ SSS CORP, we specialize in delivering end-to-end water purification solutions, from initial design to final implementation. With a focus on innovation, quality, and sustainability, we ensure every project meets the highest standards, helping build a cleaner, safer future for communities.</p>
         </section>
 
         {/* <div>

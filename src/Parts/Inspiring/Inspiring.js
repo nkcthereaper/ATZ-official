@@ -10,8 +10,8 @@ function Inspiring() {
     <div className='inspiring'>
       <div className='container'>
         <HedSection
-          title='building inspiring spaces'
-          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.'
+          title='Building your future from A to Z'
+          content='At ATZ SSS CORP, we specialize in delivering end-to-end water purification solutions, from initial design to final implementation. With a focus on innovation, quality, and sustainability, we ensure every project meets the highest standards, helping build a cleaner, safer future for communities.'
         />
 
         <img src={Materials} alt='Construction Materials' className='inspiring-img'/>

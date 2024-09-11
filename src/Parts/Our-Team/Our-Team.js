@@ -12,40 +12,39 @@ import './Our-Team.css';
 const data = [
   {
     id: 1,
-    image: AvadaTeam01,
-    alt: 'Avada Team',
-    name: 'george johnson',
-    job: 'commercial director',
+    image: "/6273888132516660123.jpg",
+    alt: 'Atz SSS Team',
+    name: 'Nikhil',
+    job: 'Director',
     facebook: '',
     twitter: '',
     instagram: '',
-    content: 'duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.'
+    content: "At the core of every successful project is a strong foundation of trust, quality, and innovation. We build not just structures, but lasting relationships."
   },
-
   {
     id: 2,
-    image: AvadaTeam03,
+    image: "https://www.shutterstock.com/image-vector/vector-flat-illustration-grayscale-avatar-600nw-2264922221.jpg",
     alt: 'Avada Team',
-    name: 'simon taylor',
-    job: 'creative director',
+    name: 'Ravi Chahar',
+    job: 'CEO',
     facebook: '',
     twitter: '',
     instagram: '',
-    content: 'duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.'
-  },
-  
+    content: "Construction is more than just building; it’s about bringing ideas to life and shaping communities through precision, dedication, and excellence."}
+,
   {
     id: 3,
-    image: AvadaTeam02,
+    image: '/uncle.jpeg',
     alt: 'Avada Team',
-    name: 'elizabeth berkley',
-    job: 'operations director',
+    name: 'Ajmal ',
+    job: 'Director',
     facebook: '',
     twitter: '',
     instagram: '',
-    content: 'duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.'
+    content: "Our vision is to create sustainable solutions that meet today’s needs while securing tomorrow’s resources. Every project is a step towards a better future."
   },
-];
+  
+  ];
 
 function OurTeam() {
   return (
@@ -56,7 +55,7 @@ function OurTeam() {
       <div className='container'>
         <HedSection
           title='meet our team'
-          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.'
+          content='Our team at ATZ SSS CORP is made up of industry experts with decades of experience in water purification and infrastructure development. From engineers to project managers, each member is dedicated to delivering innovative, high-quality solutions tailored to your needs. Together, we are committed to building a better and sustainable future'
         />
 
         <div className='parent-items'>
@@ -73,28 +72,7 @@ function OurTeam() {
                   <h3 className='title-md'>{name}</h3>
                   <h3 className='title-md'>{job}</h3>
 
-                  <nav className='card-social'>
-                    <SocialMedia
-                      url={`https://m.facebook.com/${facebook}`}
-                      className='card-social-icon'
-                      tooltip='facebook'
-                      icon='icon-facebook'
-                    />
-                    
-                    <SocialMedia
-                      url={`https://www.Twitter.com/${twitter}`}
-                      className='card-social-icon'
-                      tooltip='twitter'
-                      icon='icon-twitter'
-                    />
-                    
-                    <SocialMedia
-                      url={`https://www.instagram.com/${instagram}`}
-                      className='card-social-icon'
-                      tooltip='instagram'
-                      icon='icon-instagram'
-                    />
-                  </nav>
+                 
 
                   <p>{content}</p>
                 </div>

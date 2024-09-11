@@ -8,29 +8,28 @@ const data = [
   {
     id: 1,
     icon: 'icon-home',
-    title: 'great services',
-    content: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia'
-  },
+    title: 'Commitment to Quality',
+    content: "We deliver projects that meet the highest standards of quality and safety, ensuring long-term success and environmental sustainability"},
     
   {
     id: 2,
     icon: 'icon-setting',
-    title: 'highest standards',
-    content: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia'
+    title: 'Integrity in Every Project',
+    content: "We uphold honesty, transparency, and accountability in all our dealings, ensuring trust and reliability for our clients."
   },
     
   {
     id: 3,
     icon: 'icon-users',
-    title: 'professional team',
-    content: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia'
+    title: 'Innovative Problem-Solving',
+    content: "We embrace creativity and advanced technologies to provide tailored solutions that meet the unique demands of each project."
   },
   
   {
     id: 4,
     icon: 'icon-bulb',
-    title: 'creative solutions',
-    content: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia'
+    title: 'Client-Centric Approach',
+    content:"We prioritize our clients' needs, ensuring personalized service and close collaboration to achieve their goals effectively."
   },
 ];
 
@@ -40,7 +39,7 @@ function Values() {
       <div className='container'>
         <HedSection
           title='our core values'
-          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'
+          content="Our core values are built on a foundation of integrity, quality, innovation, and client focus. We are committed to delivering exceptional water purification solutions that not only meet industry standards but also exceed client expectations through personalized service and innovative problem-solving."
         />
 
         <div className='parent-items'>

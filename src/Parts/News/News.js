@@ -47,28 +47,29 @@ const data = [
 
 function News() {
   return (
-    <div className='news'>
-      <div className='container'>
-        <HedSection title='Latest News' content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'/>
+    // <div className='news'>
+    //   <div className='container'>
+    //     <HedSection title='Latest News' content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'/>
 
-        <div className='parent-items'>
-          {data.map(item => {
-            const {id,image,alt,link,title,date,content,categories} = item;
+    //     <div className='parent-items'>
+    //       {data.map(item => {
+    //         const {id,image,alt,link,title,date,content,categories} = item;
 
-            return (
-              <div key={id}>
-                <PostItem image={image} alt={alt} link={link} title={title} date={date} content={content} categories={categories}>
-                  <></>
-                  <></>
-                </PostItem>
-              </div>
-            );
-          })}
-        </div>
+    //         return (
+    //           <div key={id}>
+    //             <PostItem image={image} alt={alt} link={link} title={title} date={date} content={content} categories={categories}>
+    //               <></>
+    //               <></>
+    //             </PostItem>
+    //           </div>
+    //         );
+    //       })}
+    //     </div>
 
-        {/* <BtnHide link='/articles' content='articles'></BtnHide> */}
-      </div>
-    </div>
+    //     {/* <BtnHide link='/articles' content='articles'></BtnHide> */}
+    //   </div>
+    // </div>
+    <></>
   );
 }
 

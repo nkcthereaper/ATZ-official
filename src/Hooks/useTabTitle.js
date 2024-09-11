@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 function useTabTitle(pageName) {
-    const [title , setTitle] = useState('Avada Construction');
+    const [title , setTitle] = useState('Atz SSS');
     
     useEffect(()=>{
         setTitle(`${pageName} - ${title}`);

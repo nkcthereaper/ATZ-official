@@ -26,12 +26,12 @@ function About() {
     <main id='main' className='about'>
       <Hero
         title='construction with a difference'
-        content='avada construction puts the focus back on exceptional service'
+        content='Atz SSS construction puts the focus back on exceptional service'
       />
       <SubHero/>
       <Inspiring/>
       <OurTeam/>
-      <Works/>
+      {/* <Works/> */}
       <Parallax/>
       <Partners/>
       <CallToActionForm/>

@@ -115,3 +115,18 @@
 .icon-linkedin:before {
   content: '\eacb';
 }
+.icon-water:before {
+  content: '\u1F4A7';/* Placeholder for icon code, replace with actual icon code */
+}
+
+.icon-maintenance:before {
+  content: '\e901'; /* Placeholder for icon code */
+}
+
+.icon-innovation:before {
+  content: '\e902'; /* Placeholder for icon code */
+}
+
+.icon-government:before {
+  content: '\e903'; /* Placeholder for icon code */
+}

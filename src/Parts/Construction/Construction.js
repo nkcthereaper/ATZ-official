@@ -1,45 +1,49 @@
 import { Link } from 'react-router-dom';
 // Components
 import HedSection from '../../Components/Hed-Section/Hed-Section';
+import { GiWaterDrop } from "react-icons/gi";
+import { FcSupport } from "react-icons/fc";
+import { AiOutlineSolution } from "react-icons/ai";
+import { RiGovernmentLine } from "react-icons/ri";
 // Css
 import './Construction.css';
 
-// Fake Server
+// Data for ATZ SSS CORP
 const data = [
   { 
     id: 1,
-    frontIcon: 'icon-building',
-    frontTitle: 'buildings',
-    frontContent: 'Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur.',
-    backTitle: 'art fully crafted',
-    backContent:'Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum.'
+    frontIcon: <GiWaterDrop />, // Using water drop icon
+    frontTitle: 'Water Purification',
+    frontContent: 'Expert solutions in building efficient water purification plants with capacities ranging from 5000 GPH to 10000 GPH.',
+    backTitle: 'Clean & Sustainable',
+    backContent:'Providing advanced water purification technology to ensure long-lasting, environmentally friendly solutions.'
   },
   
   {
     id: 2,
-    frontIcon: 'icon-refresh',
-    frontTitle: 'renovate',
-    frontContent: 'Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur.',
-    backTitle: 'freshly new',
-    backContent: 'Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum.'
+    frontIcon: <FcSupport />, // Using support icon
+    frontTitle: 'Maintenance & Support',
+    frontContent: 'Ensuring continuous operation with comprehensive maintenance and technical support for all projects.',
+    backTitle: 'Continuous Excellence',
+    backContent: 'Our dedicated team provides consistent support and maintenance, keeping your systems running smoothly.'
   },
   
   {
     id: 3,
-    frontIcon: 'icon-home',
-    frontTitle: 'construct',
-    frontContent: 'Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur.',
-    backTitle: 'perfect lines',
-    backContent: 'Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum.'
+    frontIcon: <AiOutlineSolution />, // Using solution icon
+    frontTitle: 'Innovative Solutions',
+    frontContent: 'Utilizing cutting-edge technology to create innovative water treatment solutions for complex challenges.',
+    backTitle: 'Tailored Solutions',
+    backContent: 'Every project is designed with customized approaches, ensuring the perfect fit for your specific needs.'
   },
   
   {
     id: 4,
-    frontIcon: 'icon-truck',
-    frontTitle: 'exclusive',
-    frontContent: 'Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur.',
-    backTitle: 'planning',
-    backContent: 'Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum.'
+    frontIcon: <RiGovernmentLine />, // Using government icon
+    frontTitle: 'Government Contracts',
+    frontContent: 'Over 20 years of experience delivering top-notch solutions for government projects in water purification.',
+    backTitle: 'Trusted Partnerships',
+    backContent: 'We work closely with government entities, ensuring reliable and sustainable infrastructure for communities.'
   },
 ];
 
@@ -48,8 +52,8 @@ function Construction() {
     <div className='construction'>
       <div className='container'>
         <HedSection
-          title='specialists in modern construction'
-          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.'
+          title='Leaders in Water Purification and Infrastructure'
+          content='With over 20 years of expertise, ATZ SSS CORP delivers high-quality water purification solutions for government and private projects. Our commitment to innovation, sustainability, and client satisfaction sets us apart.'
         />
 
         <div className='parent-items'>
@@ -60,16 +64,18 @@ function Construction() {
               <div key={id} className='card-parent'>
                 <div className='rotatory-card'>
                   <section className='card-front'>
-                    <i className={`card-front-icon ${frontIcon}`}></i>
+                    <div className='card-front-icon'>
+                      {frontIcon} {/* Render the React Icon here */}
+                    </div>
                     <h3 className='title-md'>{frontTitle}</h3>
                     <p>{frontContent}</p>
                   </section>
 
-                  {/* <section className='card-back'>
+                  <section className='card-back'>
                     <h4 className='title-sm'>{backTitle}</h4>
                     <p>{backContent}</p>
-                    <Link to='/get-quote' className='btn btn-secondary'>get a quote</Link>
-                  </section> */}
+                    {/* <Link to='/get-quote' className='btn btn-secondary'>Get a Quote</Link> */}
+                  </section>
                 </div>
               </div>
             );

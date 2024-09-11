@@ -100,11 +100,11 @@ function Header() {
             <Link to='/services' className='menu-item-link menu-link'>services</Link>
           </li> */}
           
-          <li className='menu-item work'>
+          {/* <li className='menu-item work'>
             <Link to='/work' className='menu-item-link menu-link'>work</Link>
 
           
-          </li>
+          </li> */}
           
           {/* <li className='menu-item'>
             <Link to='/articles' className='menu-item-link menu-link'>articles</Link>
