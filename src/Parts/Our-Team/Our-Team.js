@@ -12,7 +12,7 @@ import './Our-Team.css';
 const data = [
   {
     id: 1,
-    image: "/6273888132516660123.jpg",
+    //image: "/6273888132516660123.jpg",
     alt: 'Atz SSS Team',
     name: 'Nikhil',
     job: 'Director',
@@ -23,7 +23,7 @@ const data = [
   },
   {
     id: 2,
-    image: "https://www.shutterstock.com/image-vector/vector-flat-illustration-grayscale-avatar-600nw-2264922221.jpg",
+    //image: "https://www.shutterstock.com/image-vector/vector-flat-illustration-grayscale-avatar-600nw-2264922221.jpg",
     alt: 'Avada Team',
     name: 'Ravi Chahar',
     job: 'CEO',
@@ -34,7 +34,7 @@ const data = [
 ,
   {
     id: 3,
-    image: '/uncle.jpeg',
+    //image: '/uncle.jpeg',
     alt: 'Avada Team',
     name: 'Ajmal ',
     job: 'Director',
