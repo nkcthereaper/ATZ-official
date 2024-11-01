@@ -60,13 +60,13 @@ function OurTeam() {
 
         <div className='parent-items'>
           {data.map(item => {
-            const {id,image,alt,name,job,facebook,twitter,instagram,content} = item;
+            const {id,alt,name,job,facebook,twitter,instagram,content} = item;
 
             return (
               <section key={id} className='Person-Card'>
-                <div className='parent-img'>
+                /*<div className='parent-img'>
                   <img src={image} alt={alt} className='card-img'/>
-                </div>
+                </div>*/
 
                 <div className='card-content'>
                   <h3 className='title-md'>{name}</h3>
