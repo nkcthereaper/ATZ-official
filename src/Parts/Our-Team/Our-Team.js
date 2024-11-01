@@ -12,7 +12,6 @@ import './Our-Team.css';
 const data = [
   {
     id: 1,
-    //image: "/6273888132516660123.jpg",
     alt: 'Atz SSS Team',
     name: 'Nikhil',
     job: 'Director',
@@ -23,18 +22,16 @@ const data = [
   },
   {
     id: 2,
-    //image: "https://www.shutterstock.com/image-vector/vector-flat-illustration-grayscale-avatar-600nw-2264922221.jpg",
     alt: 'Avada Team',
     name: 'Ravi Chahar',
     job: 'CEO',
     facebook: '',
     twitter: '',
     instagram: '',
-    content: "Construction is more than just building; it’s about bringing ideas to life and shaping communities through precision, dedication, and excellence."}
-,
+    content: "Construction is more than just building; it’s about bringing ideas to life and shaping communities through precision, dedication, and excellence."
+  },
   {
     id: 3,
-    //image: '/uncle.jpeg',
     alt: 'Avada Team',
     name: 'Ajmal ',
     job: 'Director',
@@ -43,8 +40,7 @@ const data = [
     instagram: '',
     content: "Our vision is to create sustainable solutions that meet today’s needs while securing tomorrow’s resources. Every project is a step towards a better future."
   },
-  
-  ];
+];
 
 function OurTeam() {
   return (
@@ -64,16 +60,11 @@ function OurTeam() {
 
             return (
               <section key={id} className='Person-Card'>
-                /*<div className='parent-img'>
-                  <img src={image} alt={alt} className='card-img'/>
-                </div>*/
+                {/* Image section removed */}
 
                 <div className='card-content'>
                   <h3 className='title-md'>{name}</h3>
                   <h3 className='title-md'>{job}</h3>
-
-                 
-
                   <p>{content}</p>
                 </div>
               </section>
